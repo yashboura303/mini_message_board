@@ -1,0 +1,7 @@
+<h4>Messages</h4>
+<ul class="list-group">
+  {{#each messages}}
+  <li class="list-group-item">{{this.user}}: {{this.text}}</li>
+  {{/each}}
+</ul>
+<a class="text-info" href="/new">New Message</a>
